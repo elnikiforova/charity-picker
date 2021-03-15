@@ -1,0 +1,144 @@
+ul {
+  padding: 0;
+  list-style: none;
+  width: 30%;
+  margin: auto;
+}
+
+li {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  border-bottom: 1px dotted #777;
+}
+
+.all-wrapper {
+  padding: 2em 0;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.all-card-wrapper {
+  padding: 2em 0;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-wrapper {
+  padding: 3em 0;
+  width: 210px;
+  margin: 1em;
+  background: #FFFFFF;
+}
+
+.org-title {
+  padding-top: 1em;
+  font-family: "FuturaDemiC";
+  font-size: large;
+}
+
+.org-city {
+  font-family: "FuturaBookC";
+}
+
+.qu-answ-wrapper {
+  padding: 2em;
+  background: #FFFFFF;
+  width: 716px;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.buttons-wrapper {
+  align-self: center;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.qu-intro {
+  font-family: "FuturaDemiC";
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  max-width: 100%;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.qu-intro-result {
+  padding-top: 2em;
+  font-family: "FuturaDemiC";
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  max-width: 100%;
+  font-size: 30px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.qu {
+  font-family: "Leksa Web";
+  text-align: left;
+  color: #302F2C;
+}
+
+.answ {
+  font-family: "Leksa Web"; 
+  text-align: left;
+  padding: .5em .7em;
+  min-width: 50%;
+  max-width: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.answ-intro {
+  font-family: "Leksa Web"; 
+  text-align: left;
+  min-width: 50%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.answ:hover {
+  color: whitesmoke;
+  background: #343434;
+  transition: ease-in-out;
+}
+
+label {
+  padding-right: .4em;
+}
+
+.main-button {
+  font-family: "FuturaDemiC";
+  padding: 0 1em;
+  height: 49px;
+  color: whitesmoke;
+  background: #E65639;
+  border-radius: 30px;
+  border-style:none;
+}
+
+.side-button {
+  font-family: "FuturaBookC";
+  border-radius: 30px;
+}
+
+.main-button:hover {
+  color: whitesmoke;
+  background: #343434;
+  transition: ease-in-out;
+}
